@@ -17,3 +17,13 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/dotfiles/.p10k.zsh.
 [[ ! -f ~/dotfiles/.p10k.zsh ]] || source ~/dotfiles/.p10k.zsh
+
+# === 老大專屬 Git 快捷鍵 ===
+alias g="git"
+alias gst="git status"
+alias ga="git add ."
+alias gc="git commit -m"
+alias gp="git push"
+alias gl="git pull"
+alias gco="git checkout"
+alias glo="git log --oneline --graph --decorate --all" # 加上 --graph 會有漂亮的視覺化分支線
